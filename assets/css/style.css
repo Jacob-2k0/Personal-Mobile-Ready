@@ -1,0 +1,304 @@
+
+body {
+    background-color : #dddddd ;
+}
+
+#menu {
+    text-align : center ;
+    background : #ffffff ;
+    height: 100px ;
+    border-color : #cccccc ;
+    border-style : solid ;
+    margin-top: -11px;
+    margin-left : -10px;
+    margin-right : -10px;
+}
+
+/*Footer*/
+#footer {
+    float : left ;
+    text-align : center ;
+    background : #666666 ;
+    height: 60px ;
+    border-color : #4aaaa5 ;
+    border-style : solid ;
+    border-width : 6px;
+    position : absolute;
+    margin-top : 85px ;
+    width : 100%;
+    margin-left : -14px ;
+}
+
+#copyright {
+    font-size : 12px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    color : white ;
+    vertical-align : middle ;
+    line-height : 35px;
+}
+
+/*Navigation Bar*/
+ul {
+    float: right;
+    position: relative;
+    list-style-type : none ;
+    text-align : middle ;
+    top: -122px;
+}
+
+li {
+    float:left;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 25px;
+}
+
+li a {
+    display : inline-block ;
+    color : white;
+    text-align : center ;
+    padding : 14px 16px ;
+    text-decoration : none ;
+}
+
+.box1 {
+    float: left;
+    background : #4aaaa5;
+    height: 100px;
+    width: 270px;
+    top: -168px;
+    left: -40px;
+    position : relative;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height : 90px;
+    font-size: 40px;
+}
+
+a:link {
+    color: #666 ;
+    text-decoration : none ;
+}
+a:visited {
+    color: #666 ;
+}
+a:hover {
+    color: black;
+    text-decoration : underline ;
+}
+
+/*Float Clearing*/
+.clearfix::after {
+    content : "";
+    display : block;
+    clear: both;
+}
+
+/*Detail Box*/
+#detailsI {
+    height : 700px ;
+    margin : auto;
+    background : #ffffff ;
+    border-color : #cccccc ;
+    border-style : solid ;
+    width : 960px;
+    margin-top : 22px;
+}
+#detailsP {
+    height : 700px ;
+    margin : auto;
+    background : #ffffff ;
+    border-color : #cccccc ;
+    border-style : solid ;
+    width : 960px;
+    margin-top : 22px;
+}
+#detailsC {
+    height : 700px ;
+    margin : auto;
+    background : #ffffff ;
+    border-color : #cccccc ;
+    border-style : solid ;
+    width : 960px;
+    margin-top : 22px;
+    left : -320px ;
+}
+
+.title {
+    float: left ;
+    position : relative ;
+    color : #4aaaa5 ;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    font-size : 25px ;
+    top : 10px ;
+    margin-left : -320px;
+}
+
+.splitter {
+    position: relative ;
+    background: #dddddd ;
+    height: 3px ;
+    width: 900px ;
+    top: 80px ;
+    left: 30px ;
+}
+
+img {
+    float : left;
+    position: relative;
+    left: 30px;
+    top: -70px;
+    margin-right : 50px;
+    opacity: 0.825;
+}
+
+.mainP {
+    float : left ;
+    margin-top : -78px ;
+    width : 70% ;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    color : #666 ;
+    font-size : 20px ;
+    text-align : justify ;
+    line-height : 1.5 ;
+    position : relative ;
+}
+
+.mainP2 {
+    float : left;
+    top : -80px;
+    left : 30px;
+    width : 93% ;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    color : #666 ;
+    font-size : 20px ;
+    text-align : justify ;
+    line-height : 1.5 ;
+    position : relative ;
+}
+
+.img2 {
+    float : left;
+    position : relative;
+    left : -20px;
+    margin-top : 25px;
+    opacity: 0.9;
+    z-index : 1 ;
+}
+.img3 {
+    float : right;
+    position : relative;
+    top : -270px;
+    opacity: 0.9;
+    z-index : 1 ;
+}
+.img4 {
+    float : left;
+    position : relative;
+    left : -20px;
+    top : -220px;
+    opacity: 0.9;
+    z-index : 1 ;
+}
+
+.labelBox1 {
+    float : left;
+    height : 30px;
+    width : 194px;
+    position : relative ;
+    background : #4aaaa5 ;
+    padding : 3px 3px 3px 3px;
+    font-size : 27px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    text-align : center ;
+    color : white ;
+    top : 90px;
+    left : -270px;
+    z-index : 2 ;
+}
+.labelBox2 {
+    float : right;
+    height : 30px;
+    width : 194px;
+    position : relative ;
+    background : #4aaaa5 ;
+    padding : 3px 3px 3px 3px;
+    font-size : 27px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    text-align : center ;
+    color : white ;
+    top : -136px;
+    left : 230px;
+    z-index : 2 ;
+}
+.labelBox3 {
+    float : left;
+    height : 30px;
+    width : 194px;
+    position : relative ;
+    background : #4aaaa5 ;
+    padding : 3px 3px 3px 3px;
+    font-size : 27px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    text-align : center ;
+    color : white ;
+    left : -270px;
+    top : -84px;
+    z-index : 2 ;
+}
+
+/*Form*/
+
+input[type=text], select {
+    width: 250% ;
+    padding: 12px 20px ;
+    margin-top: 8px ;
+    margin-bottom: 8px ;
+    display: inline-block ;
+    border: 1px solid #ccc ;
+    border-radius: 4px ;
+    box-sizing: border-box ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+form {
+    float: left;
+    margin-top : -60px;
+    margin-left: 30px ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+textarea {
+    width: 250% ;
+    height: 100px ;
+    padding: 12px 20px ;
+    margin-top: 8px ;
+    margin-bottom: 8px ;
+    display: inline-block ;
+    border: 1px solid #ccc ;
+    border-radius: 4px ;
+    box-sizing: border-box ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.submit {
+    background : #4aaaa5 ;
+    color : white ;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    padding : 8px 20px 8px 20px ;
+    font-size : 16px;
+    border : 0 ;
+}
+
+label {
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    color : #666;
+}
+
+
+/*MOBILE-RESPONSIVE*/
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.*/

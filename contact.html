@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Jacob Norris - Contact</title>
+
+<!--<link rel="stylesheet" type="text/css" href="C:\Users\Jake\Desktop\04-ResetCSS\Unsolved\reset.css">-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+@media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #dddddd;
+    }
+  
+    #menu {
+        width : 1110px ;
+        margin-left : -10px;
+    }
+
+    #footer {
+        width : 1110px;
+    }
+
+    #detailsC {
+        width : 870px;
+    }
+
+    .splitter {
+        width : 700px;
+    }
+
+    ul {
+        left: 200px;
+    }
+
+    textarea{
+        width: 200%; 
+    }
+
+    input[type=text], select {
+    width: 200% ;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #dddddd;
+    }
+  
+    #menu {
+        width : 960px; ;
+    }
+
+    #footer {
+        width : 960px;
+    }
+
+    #detailsI {
+        width : 900px;
+        margin-left : 15px;
+    }
+
+    .splitter {
+        width : 800px;
+    }
+    
+    ul {
+        left : 3px;
+    }
+  }
+@media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #dddddd;
+    }
+  
+    #menu {
+        width : 1100px ;
+        height : 75px;
+        margin-top : 100px;
+    }
+
+    .box1 {
+        
+        width : 1100px;
+        top : -240px;
+    }
+    
+    #footer {
+        width : 980px;
+    }
+
+    #detailsI {
+        width : 930px;
+    }
+
+    .splitter {
+        width : 800px;
+    }
+
+    ul {
+        top : -290px;
+        left : -290px;
+    }
+
+    .title {
+        top : -170px;
+        left : 30px;
+    }
+
+    img {
+        top : -160px;
+    }
+
+    .mainP {
+        top : -90px;
+    }
+    .mainP2 {
+        top : -160px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+    <div id="menu">
+    </div>
+
+    <div id="detailsC">
+         <div class="clearfix">
+             <figure class="box1">Jacob Norris</figure>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <h2 class="title">Contact</h2>
+            <div class="splitter"></div>
+        </div>
+        <form>
+            <label>Name</label><br>
+            <input type="text" placeholder="John Smith"><br>
+            <label>Email</label><br>
+            <input type="text" placeholder="example@gmail.com"><br>
+            <label>Message</label>
+            <textarea placeholder="Message...."></textarea>
+
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div id="footer">
+        <p id="copyright">Copyright ©</p>
+    </div>
+</body>
+</html>
